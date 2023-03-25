@@ -81,7 +81,7 @@ html {
 .back-to-top {
     position: fixed;
     display: none;
-    left: 95%;
+    left: 97%;
     bottom: 5%;
     margin-left: -22px;
     border-radius: 0;
@@ -138,6 +138,16 @@ html {
 }
 
 @media (max-width: 576px) {
+    .back-to-top {
+        position: fixed;
+        display: none;
+        left: 90%;
+        bottom: 5%;
+        margin-left: -22px;
+        border-radius: 0;
+        z-index: 99;
+    }
+
     .carousel-caption h4 {
         font-size: 18px;
         font-weight: 500 !important;
